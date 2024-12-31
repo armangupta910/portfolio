@@ -15,8 +15,15 @@ import quickbite from './images/quickbite.jpg';
 import codestur from './images/codestur.jpg';
 import tedx from './images/ted.png';
 import email from './images/email.webp'
+import video from './images/video.webp'
 
 const projectsData = [
+  {
+    title: "Camave",
+    category: "An instant one-to-one video calling application",
+    image: video,
+    url: "https://github.com/armangupta910/Video-Call"
+  },
   {
     title: "Quick Chat",
     category: "A one to one chatting application",

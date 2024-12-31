@@ -116,6 +116,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Camava",
+        "category": "An instant one-to-one video calling application",
+        "image": "",
+        "url": "https://github.com/armangupta910/Video-Call"
+      },
+      {
         "title": "Quick Chat",
         "category": "A one to one chatting application",
         "image": "",

@@ -109,24 +109,48 @@ class Resume extends Component {
 
         {/* CSS Styles */}
         <style jsx>{`
-          .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr); /* 7 equal columns */
-            grid-template-rows: repeat(3, auto); /* 3 rows */
-            gap: 20px;
-            padding: 20px 0;
-          }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Default: 7 columns */
+    grid-auto-rows: auto; /* Automatically adjust rows */
+    gap: 5px; /* Adjust gap as needed */
+    padding: 0;
+  }
 
-          .skill-item {
-            text-align: center;
-          }
+  .skill-item {
+    text-align: center;
+    margin: 0;
+  }
 
-          .skill-item img {
-            width: 50px; /* Adjust the size of the icons */
-            height: 50px;
-            margin-bottom: 10px;
-          }
-        `}</style>
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+
+  /* Media Query for Tablet Screens */
+  @media (max-width: 1024px) {
+    .skills-grid {
+      grid-template-columns: repeat(5, 1fr); /* Reduce to 5 columns */
+    }
+  }
+
+  /* Media Query for Mobile Screens */
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(3, 1fr); /* Reduce to 3 columns */
+    }
+  }
+
+  /* Media Query for Very Small Screens */
+  @media (max-width: 480px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr); /* Reduce to 2 columns */
+    }
+  }
+`}</style>
+
+
       </section>
     );
   }

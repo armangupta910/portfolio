@@ -35,18 +35,32 @@ header {
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   display: flex; /* Enable flexbox for centering */
+   justify-content: center; /* Horizontally center content */
+   align-items: center; /* Vertically center content */
 }
 
-/* vertically center banner section */
-header:before {
+header::before {
    content: '';
-   display: inline-block;
-   vertical-align: middle;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
    height: 100%;
+   background: rgba(0, 0, 0, 0.5); /* Adjust opacity for brightness */
+   z-index: 1; /* Keep the overlay below the text */
 }
+
+header > * {
+   position: relative;
+   z-index: 2; /* Ensure text appears above the overlay */
+   color: white; /* Ensure text remains readable */
+   margin: 0; /* Reset margins for proper alignment */
+}
+
 header .banner {
    display: inline-block;
    vertical-align: middle;

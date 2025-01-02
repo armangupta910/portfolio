@@ -68,7 +68,7 @@ class Header extends Component {
            <div className="banner-text">
              <h1 className="responsive-headline">I'm {'Arman'}.</h1>
              <h3 style={bioStyle}>
-               I'm a {'India'} based <span>{'Software Developer'}</span> specializing in crafting efficient, scalable, and user-focused solutions. Dedicated to transforming ideas into impactful applications with clean and innovative code.
+             I am a software developer based in India, passionate about designing efficient, scalable, and user-centric solutions. With a commitment to excellence, I specialize in turning ideas into impactful applications through clean, innovative, and high-quality code.
              </h3>
              <hr />
              <ul className="social">{networks}</ul>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import mobile from '../images/mobile.png';
 
 class Portfolio extends Component {
   render() {
@@ -11,35 +12,57 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
         <h1>Check Out Some of My Works.</h1>
-        <div className="portfolio-container">
-          {projects.map((project, index) => (
-            <div className="project-card" key={index}>
-              <img src={project.image} alt={project.title} className="project-image" />
-              <div className="project-content">
-                <h3>{project.title}</h3>
-                <p>{project.category}</p>
-                <a
-                  href={project.url}
-                  title={project.title}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project-link"
-                >
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/25/25231.png" // GitHub logo example
-                    alt="Project Link"
-                    className="link-logo"
-                  />
-                </a>
+        <div className="portfolio-wrapper">
+          <div className="portfolio-container">
+            {projects.map((project, index) => (
+              <div className="project-card" key={index}>
+                <img src={project.image} alt={project.title} className="project-image" />
+                <div className="project-content">
+                  <h3>{project.title}</h3>
+                  <p>{project.category}</p>
+                  <div className="project-links">
+                    <a
+                      href={project.url}
+                      title={project.title}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        alt="Project Link"
+                        className="link-logo"
+                      />
+                    </a>
+                    
+                    <a
+                      href={project.liveUrl}
+                      title="Extra Link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      <img
+                        src={
+                          project.type === "mobile"
+                            ? mobile
+                            : "https://e7.pngegg.com/pngimages/798/799/png-clipart-web-development-logo-world-wide-web-website-web-symbol-s-web-design-symmetry.png"
+                        }
+                        alt="Extra Link"
+                        className="link-logo"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        {/* Inline CSS */}
         <style jsx>{`
           #portfolio {
             padding: 20px 0;
+            width: 100%;
           }
 
           h1 {
@@ -48,12 +71,24 @@ class Portfolio extends Component {
             font-size: 24px;
           }
 
+          .portfolio-wrapper {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 0 20px;
+          }
+
           .portfolio-container {
             display: flex;
             flex-wrap: nowrap;
             gap: 15px;
             overflow-x: auto;
-            padding: 0 10px;
+            max-width: 100%;
+            padding: 10px 0;
+            margin: 0 auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: thin;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
           }
 
           .portfolio-container::-webkit-scrollbar {
@@ -112,6 +147,7 @@ class Portfolio extends Component {
 
           .project-link {
             display: inline-block;
+            margin-left: 10px;
           }
 
           .link-logo {

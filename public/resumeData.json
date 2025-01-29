@@ -119,43 +119,57 @@
         "title": "Camava",
         "category": "An instant one-to-one video calling application",
         "image": "",
-        "url": "https://github.com/armangupta910/Video-Call"
+        "url": "https://github.com/armangupta910/Video-Call",
+        "liveUrl": "https://google.com/",
+        "type": "web"
       },
       {
         "title": "Quick Chat",
         "category": "A one to one chatting application",
         "image": "",
-        "url": "https://github.com/armangupta910/Quick-Chat-Android-App"
+        "url": "https://github.com/armangupta910/Quick-Chat-Android-App",
+        "liveUrl": "https://google.com/",
+        "type": "mobile"
       },
       {
         "title": "Email Scheduler",
         "category": "Schedule Bulk Emails using an Excel Sheet",
         "image": "fury-fighting-gear.jpg",
-        "url": "https://github.com/armangupta910/Email-Scheduler"
+        "url": "https://github.com/armangupta910/Email-Scheduler",
+        "liveUrl": "https://google.com/",
+        "type": "web"
       },
       {
         "title": "WeSplit",
         "category": "An expense management application between friends",
         "image": "",
-        "url": "https://github.com/armangupta910/WeSplit"
+        "url": "https://github.com/armangupta910/WeSplit",
+        "liveUrl": "https://google.com",
+        "type": "mobile"
       },
       {
         "title": "Quick Bite",
         "category": "An end to end food ordering application",
         "image": "resume-website.jpg",
-        "url": "https://github.com/armangupta910/Canteen-IITJ"
+        "url": "https://github.com/armangupta910/Canteen-IITJ",
+        "liveUrl": "https://google.com",
+        "type": "mobile"
       },
       {
         "title": "Codestur",
         "category": "A youtube channel content application along with tutorial notes",
         "image": "",
-        "url": "https://github.com/armangupta910/CodeStur"
+        "url": "https://github.com/armangupta910/CodeStur",
+        "liveUrl": "https://google.com",
+        "type": "mobile"
       },
       {
         "title": "TED X IITJodhpur",
         "category": "Official TED X IITJodhpur website for user registration and entry",
         "image": "smirkspace.jpg",
-        "url": "https://github.com/armangupta910/TEDx_IITJodhpur"
+        "url": "https://github.com/armangupta910/TEDx_IITJodhpur",
+        "liveUrl": "https://google.com",
+        "type": "web"
       }
     ]
   },

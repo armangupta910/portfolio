@@ -19,46 +19,60 @@ import video from './images/video.webp'
 
 const projectsData = [
   {
-    title: "Camave",
-    category: "An instant one-to-one video calling application",
-    image: video,
-    url: "https://github.com/armangupta910/Video-Call"
+    "title": "Camava",
+    "category": "An instant one-to-one video calling application based on WebRTC",
+    "image": video,
+    "url": "https://github.com/armangupta910/Video-Call",
+    "liveUrl": "https://34.30.175.132:3000/",
+    "type": "web"
   },
   {
-    title: "Quick Chat",
-    category: "A one to one chatting application",
-    image: chat,
-    url: "https://github.com/armangupta910/Quick-Chat-Android-App"
+    "title": "Quick Chat",
+    "category": "A one to one chatting application based on Websockets",
+    "image": chat,
+    "url": "https://github.com/armangupta910/Quick-Chat-Android-App",
+    "liveUrl": "https://appetize.io/app/b_g3xm4msuv5ilczdhcw5tgzoray",
+    "type": "mobile"
   },
   {
-    title: "Email Scheduler",
-    category: "Schedule Bulk Emails using an Excel Sheet",
-    image: email,
-    url: "https://github.com/armangupta910/Email-Scheduler"
+    "title": "Email Scheduler",
+    "category": "Bulk Email Scheduler built using quartz scheduler and MySQL",
+    "image": email,
+    "url": "https://github.com/armangupta910/Email-Scheduler",
+    "liveUrl": "http://34.131.206.50:8080/",
+    "type": "web"
   },
   {
-    title: "WeSplit",
-    category: "An expense management application between friends",
-    image: wesplit,
-    url: "https://github.com/armangupta910/WeSplit"
+    "title": "WeSplit",
+    "category": "An expense management application between friends and family",
+    "image": wesplit,
+    "url": "https://github.com/armangupta910/WeSplit",
+    "liveUrl": "https://appetize.io/app/b_a2frcvkygfllrypvrbsltwzvwi", //Email Scheduler
+    "type": "mobile"
   },
   {
-    title: "Quick Bite",
-    category: "An end to end food ordering application",
-    image: quickbite,
-    url: "https://github.com/armangupta910/Canteen-IITJ"
+    "title": "Quick Bite",
+    "category": "An end to end food ordering application built on Firebase and Kotlin",
+    "image": quickbite,
+    "url": "https://github.com/armangupta910/Canteen-IITJ",
+    "liveUrl": "https://appetize.io/app/b_zjswp2cziswwxqrazmmi3pylzy",
+    "type": "mobile"
   },
   {
-    title: "Codestur",
-    category: "A youtube channel content application along with tutorial notes",
-    image: codestur,
-    url: "https://github.com/armangupta910/CodeStur"
+    "title": "Codestur",
+    "category": "A youtube channel content application to access videos along with tutorial notes",
+    "image": codestur,
+    "url": "https://github.com/armangupta910/CodeStur",
+    "liveUrl": "https://appetize.io/app/b_go4wpxllaacfgfnlqylase6m2m",
+    "type": "mobile"
   },
   {
-    title: "TED X IITJodhpur",
-    image: tedx,
-    category: "Official TED X IITJodhpur website for user registration and entry",
-    url: "https://github.com/armangupta910/TEDx_IITJodhpur"
+    "title": "TED X IITJodhpur",
+    "category": "Official TED X IITJodhpur website for user registration and entry",
+    "image": tedx,
+    "url": "https://github.com/armangupta910/TEDx_IITJodhpur",
+    "liveUrl": "https://tedx.iitj.ac.in/",
+    "type": "web"
   }
 ];
 

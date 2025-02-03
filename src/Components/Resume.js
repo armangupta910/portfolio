@@ -8,12 +8,21 @@ class Resume extends Component {
       { name: "Kotlin", icon: "https://img.icons8.com/?size=512&id=ZoxjA0jZDdFZ&format=png" },
       { name: "C++", icon: "https://img.icons8.com/?size=512&id=TpULddJc4gTh&format=png" },
       { name: "C", icon: "https://img.icons8.com/?size=512&id=shQTXiDQiQVR&format=png" },
+
+      { name: "C#", icon: "https://img.icons8.com/?size=256&id=Fycm8TUhWmFU&format=png" },
+
       { name: "Python", icon: "https://img.icons8.com/?size=512&id=13441&format=png" },
       { name: "Solidity", icon: "https://img.icons8.com/?size=512&id=HOqGCOyHDbd4&format=png" },
       { name: "MySQL", icon: "https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png" },
+
+      { name: "MSSQL", icon: "https://dq3yfnoirppqu.cloudfront.net/dex-assets/3rd-party/mssql-connector-by-axtesys/MSSQL.png" },
+
       { name: "MongoDB", icon: "https://img.icons8.com/?size=512w&id=bosfpvRzNOG8&format=png" },
       { name: "Spring Boot", icon: "https://img.icons8.com/?size=512&id=90519&format=png" },
       { name: "JWT", icon: "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png" },
+
+      { name: "Windows API", icon: "https://www.signotec-shop.com/webstore/images/product_images/original_images/Windows_API.png" },
+
       { name: "WebRTC", icon: "https://static-00.iconduck.com/assets.00/webrtc-icon-512x496-cef4xjw5.png" },
       { name: "Websocket", icon: "https://static-00.iconduck.com/assets.00/websocket-icon-512x384-sm7dfowk.png" },
       { name: "Etherium", icon: "https://img.icons8.com/?size=160&id=mLzZg2PFa2A4&format=png" },

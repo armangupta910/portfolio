@@ -35,6 +35,9 @@ class Resume extends Component {
       { name: "Ganache", icon: "https://images.seeklogo.com/logo-png/42/1/ganache-logo-png_seeklogo-426724.png?v=1957913191660038128" },
       { name: "Truffle", icon: "https://archive.trufflesuite.com/assets/logo.png" },
       { name: "Metamask", icon: "https://img.icons8.com/?size=512w&id=Oi106YG9IoLv&format=png" },
+
+      { name: "Github", icon: "https://img.icons8.com/?size=256&id=LoL4bFzqmAa0&format=png" },
+
       { name: "AWS", icon: "https://img.icons8.com/?size=512w&id=mHi46t5vguiz&format=png" },
       { name: "GCP", icon: "https://img.icons8.com/?size=512&id=WHRLQdbEXQ16&format=png" },
       { name: "Razorpay", icon: "https://medusajs.com/images/plugin-icons/medusa-payment-razorpay-icon.svg" },

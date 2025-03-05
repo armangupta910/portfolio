@@ -23,7 +23,7 @@ const projectsData = [
     "category": "An instant one-to-one video calling application based on WebRTC",
     "image": video,
     "url": "https://github.com/armangupta910/Video-Call",
-    "liveUrl": "https://34.30.175.132:3000/",
+    "liveUrl": "https://armanguptaprojects.tech/camave",
     "type": "web"
   },
   {
@@ -39,7 +39,7 @@ const projectsData = [
     "category": "Bulk Email Scheduler built using quartz scheduler and MySQL",
     "image": email,
     "url": "https://github.com/armangupta910/Email-Scheduler",
-    "liveUrl": "http://34.131.206.50:8080/",
+    "liveUrl": "https://armanguptaprojects.tech/email",
     "type": "web"
   },
   {

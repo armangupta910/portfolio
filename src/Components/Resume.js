@@ -9,19 +9,13 @@ class Resume extends Component {
       { name: "C++", icon: "https://img.icons8.com/?size=512&id=TpULddJc4gTh&format=png" },
       { name: "C", icon: "https://img.icons8.com/?size=512&id=shQTXiDQiQVR&format=png" },
 
-      { name: "C#", icon: "https://img.icons8.com/?size=256&id=Fycm8TUhWmFU&format=png" },
-
       { name: "Python", icon: "https://img.icons8.com/?size=512&id=13441&format=png" },
       { name: "Solidity", icon: "https://img.icons8.com/?size=512&id=HOqGCOyHDbd4&format=png" },
       { name: "MySQL", icon: "https://img.icons8.com/?size=512&id=qGUfLiYi1bRN&format=png" },
 
-      { name: "MSSQL", icon: "https://dq3yfnoirppqu.cloudfront.net/dex-assets/3rd-party/mssql-connector-by-axtesys/MSSQL.png" },
-
       { name: "MongoDB", icon: "https://img.icons8.com/?size=512w&id=bosfpvRzNOG8&format=png" },
       { name: "Spring Boot", icon: "https://img.icons8.com/?size=512&id=90519&format=png" },
       { name: "JWT", icon: "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png" },
-
-      { name: "Windows API", icon: "https://www.signotec-shop.com/webstore/images/product_images/original_images/Windows_API.png" },
 
       { name: "WebRTC", icon: "https://static-00.iconduck.com/assets.00/webrtc-icon-512x496-cef4xjw5.png" },
       { name: "Websocket", icon: "https://static-00.iconduck.com/assets.00/websocket-icon-512x384-sm7dfowk.png" },
@@ -40,9 +34,16 @@ class Resume extends Component {
 
       { name: "AWS", icon: "https://img.icons8.com/?size=512w&id=mHi46t5vguiz&format=png" },
       { name: "GCP", icon: "https://img.icons8.com/?size=512&id=WHRLQdbEXQ16&format=png" },
+      { name: "Docker", icon: "https://img.icons8.com/?size=512&id=22813&format=png" },
+
+      { name: "Kubernetes", icon: "https://img.icons8.com/?size=256&id=cvzmaEA4kC0o&format=png" },
+      { name: "Prometheus", icon: "https://img.icons8.com/?size=256&id=Ei4ZhVQvIMHE&format=png" },
+      { name: "KEDA", icon: "https://avatars.githubusercontent.com/u/49917779?s=48&v=4" },
+      { name: "Minikube", icon: "https://miro.medium.com/v2/resize:fit:640/format:webp/0*KzqL3xqmXzV5PPjX.png" },
+
       { name: "Razorpay", icon: "https://medusajs.com/images/plugin-icons/medusa-payment-razorpay-icon.svg" },
       { name: "Postman", icon: "https://img.icons8.com/?size=512&id=QEQQKirln6Tf&format=png" },
-      { name: "Docker", icon: "https://img.icons8.com/?size=512&id=22813&format=png" },
+
       { name: "Android Studio", icon: "https://img.icons8.com/?size=512&id=04OFrkjznvcd&format=png" },
       { name: "IntelliJ IDEA", icon: "https://img.icons8.com/?size=512&id=F7REdHlg6KJX&format=png" },
       { name: "VS Code", icon: "https://img.icons8.com/?size=512&id=0OQR1FYCuA9f&format=png" },
